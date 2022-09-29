@@ -1,0 +1,90 @@
+:root {
+  --fontForPosts: botanika-mono-web, monospace;
+  --fontForButtons: informapro, sans-serif;
+  --textColor: #2704ff;
+}
+
+body {
+  background: rgb(244, 248, 251);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontForPosts);
+  color: var(--textColor);
+  padding-left: 8px;
+}
+
+p {
+  font-family: var(--fontForPosts);
+  color: var(--textColor);
+}
+
+.logInButton {
+  font-family: var(--fontForButtons);
+  color: #ff00b7b3;
+  background-color: #ff00b75e;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  border-radius: 100px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.wrapper .sidebar {
+  background: rgb(255, 254, 254);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 170px;
+  height: 100%;
+  padding: 60px 5px;
+  transition: all ease 0.5;
+  text-align: left;
+}
+
+.wrapper .sidebar ul li a {
+  display: block;
+  padding: 5px;
+  border-bottom: 0.5px solid #a873fc;
+  text-align: left;
+}
+
+.wrapper .sidebar a:hover {
+  color: #c2baf8;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  font-family: var(--fontForPosts);
+  padding: 5px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #2704ff;
+}
+
+a:active {
+  color: #5946d1;
+}
+
+.illustrationPortrait {
+  height: 10px;
+  width: 5px;
+  padding-left: 40vw;
+  padding-top: 10vh;
+}
+
+.introductionText {
+  padding-left: 40vw;
+  padding-top: 45vh;
+}

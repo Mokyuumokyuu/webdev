@@ -1,0 +1,52 @@
+.navLogo {
+  padding-left: 44em;
+  padding-top: 25vh;
+  width: 300px;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  margin-bottom: 10vh;
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}
+
+.container-for-nav-buttons {
+  height: 150px;
+}
+
+.heartButton {
+  margin-left: 30vw;
+  background: transparent url("/GraphicEl/heart.png") no-repeat;
+}
+
+.heartButton:hover {
+  background-image: url(/GraphicEl/heart_pressed.png);
+}
+
+.illustrationButton {
+  background: transparent url("/GraphicEl/pen.png") no-repeat;
+}
+
+.illustrationButton:hover {
+  background-image: url(/GraphicEl/pen_pressed.png);
+}
+
+.graphicButton {
+  background: transparent url(/GraphicEl/graphic_design.png) no-repeat;
+  padding-left: 10px;
+}
+
+.graphicButton:hover {
+  background-image: url(/GraphicEl/graphic_pressed.png);
+}
+
+.contactButton {
+  background: transparent url(/GraphicEl/contact.png) no-repeat;
+}
+
+.contactButton:hover {
+  background-image: url(/GraphicEl/contact_pressed.png);
+}
